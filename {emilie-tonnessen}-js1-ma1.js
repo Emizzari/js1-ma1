@@ -12,6 +12,7 @@
 
    cat.complain();
 
+
 // Question 2
 /* Select the h3 from the HTML below using the querySelector 
    method and assign it to a variable called heading.
@@ -22,16 +23,19 @@
    const heading = document.querySelector("h3");
    console.dir(heading);
 
+
 // Question 3
 /* Use the style property on the heading variable from the 
    question above to change its font size to "2em".*/
 
    heading.style.fontSize = "2em";
 
+
 // Question 4
 /* Add a class to the heading variable called subheading.*/
 
    heading.classList.add("subheading");
+
 
 // Question 5
 /* Write code that selects all the p elements on a page and 

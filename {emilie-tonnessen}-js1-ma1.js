@@ -26,6 +26,7 @@
 /* Use the style property on the heading variable from the 
    question above to change its font size to "2em".*/
 
+   heading.style.fontSize = "2em";
 
 // Question 4
 /* Add a class to the heading variable called subheading.*/

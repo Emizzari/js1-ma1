@@ -17,6 +17,10 @@
    method and assign it to a variable called heading.
    <h3>Subheading</h3> */
 
+   document.querySelector("h3");
+
+   const heading = document.querySelector("h3");
+   console.dir(heading);
 
 // Question 3
 /* Use the style property on the heading variable from the 

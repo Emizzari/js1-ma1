@@ -41,6 +41,11 @@
 /* Write code that selects all the p elements on a page and 
    assigns them to a variable called paragraphs.*/
 
+   const allThePElements = document.querySelectorAll("p");
+
+   for(let i =0; i < allThePElements.length; i++) {
+    allThePElements[i].innerText = i + " changed";
+   }
 
 // Question 6
 /* Select the div by its class from the HTML below, assign it 

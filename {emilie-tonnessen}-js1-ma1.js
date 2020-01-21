@@ -31,6 +31,7 @@
 // Question 4
 /* Add a class to the heading variable called subheading.*/
 
+   heading.classList.add("subheading");
 
 // Question 5
 /* Write code that selects all the p elements on a page and 

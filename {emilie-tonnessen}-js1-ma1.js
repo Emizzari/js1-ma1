@@ -48,6 +48,11 @@
    to be <p>New paragraph</p>.
    <div class="results"></div>*/
 
+   const results = document.querySelector("div");
+   results.innerHTML = `<p>
+                            New paragraph
+                        </p>`;
+
 
 // Question 7
 /* Create a function that has one argument called catArray.

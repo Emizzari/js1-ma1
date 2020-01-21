@@ -4,6 +4,13 @@
    value should be a method (a function) which logs the string 
    "Meow!". */
 
+   const cat = {
+       complain: function(){
+           console.log("Meow!");
+       }
+   }
+
+   cat.complain();
 
 // Question 2
 /* Select the h3 from the HTML below using the querySelector 
@@ -76,7 +83,7 @@
    property is missing, it should display Age unknown instead.
    Wrap the h5 and p in a div.
    The function should return the following:
-   
+
     <div>
         <h5>Blob</h5>
         <p>10</p>

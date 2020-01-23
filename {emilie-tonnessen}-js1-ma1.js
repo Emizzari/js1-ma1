@@ -94,19 +94,26 @@
    <h5>Harold</h5>
    <h5>Blurt</h5>*/
 
+
     function oneFunction(catArray) {
-        for (var i = 0; i < cats.length; i++) {
-            console.log("<h5>" + cats[i].name + "</h5>");
+        for (let i = 0; i < cats.length; i++) {
+            const name = "<h5>" + cats[i].name + "</h5>";
+            
         }
     }
 
-    oneFunction();
+    
+    
+   
+
 
 
 // Question 9
 /* Call the function from question 8, pass it the cats variable 
    from question 7 and set the inner HTML of the resultsContainer 
    variable from question 6 to the return value of the function.*/
+
+   oneFunction(cats)
 
 
 // Question 10
@@ -115,7 +122,6 @@
    property is missing, it should display Age unknown instead.
    Wrap the h5 and p in a div.
    The function should return the following:
-
     <div>
         <h5>Blob</h5>
         <p>10</p>
@@ -128,3 +134,16 @@
         <h5>Blurt</h5>
         <p>21</p>
     </div> */
+
+
+for (let i = 0; i < cats.length; i++) {
+    const nameAndAge = `<div>              
+                        <h5>${cats[i].name}</h5>
+                        <p>${cats[i].age}</p>                                  
+                </div>`;
+    newHTML += nameAndAge;
+}
+
+if( cats.age = undefined){
+    console.log("Age unknown");
+}

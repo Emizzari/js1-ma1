@@ -48,7 +48,7 @@
    to be <p>New paragraph</p>.
    <div class="results"></div>*/
 
-   const results = document.querySelector("div");
+   const results = document.querySelector(".results");
    results.innerHTML = `<p>
                             New paragraph
                         </p>`;
@@ -103,20 +103,15 @@
         return name;
     }
 
-    catNames(cats);
-
     
-    
-   
-
-
-
 // Question 9
 /* Call the function from question 8, pass it the cats variable 
    from question 7 and set the inner HTML of the resultsContainer 
    variable from question 6 to the return value of the function.*/
 
-   oneFunction(cats)
+   
+    const results = document.querySelector("div");
+    results.innerHTML = catNames(cats);
 
 
 // Question 10

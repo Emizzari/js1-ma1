@@ -94,12 +94,15 @@
    <h5>Blurt</h5>*/
 
 
-    function oneFunction(catArray) {
-        for (let i = 0; i < cats.length; i++) {
-            const name = "<h5>" + cats[i].name + "</h5>";
-            
-        }
+function catNames(catArray) {
+    let name = "";
+
+    for (let i = 0; i < cats.length; i++) {
+        name += `<h5>${cats[i].name}</h5>`;
     }
+
+    return name;
+}
 
     
     

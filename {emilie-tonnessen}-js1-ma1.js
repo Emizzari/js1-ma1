@@ -3,6 +3,7 @@
    Give the object one property called complain. complain's 
    value should be a method (a function) which logs the string 
    "Meow!". */
+
    const cat = {
        complain: function(){
            console.log("Meow!");
@@ -39,6 +40,7 @@
    assigns them to a variable called paragraphs.*/
 
    const paragraphs = document.querySelectorAll("p");
+
 
 // Question 6
 /* Select the div by its class from the HTML below, assign it 

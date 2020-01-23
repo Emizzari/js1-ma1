@@ -134,23 +134,16 @@
 
 
 
-for (let i = 0; i < cats.length; i++) {
+for (let i = 0; i < catArray.length; i++) {
     let ageValue = "Age unknown";
-    if (cats[i].age){
-        ageValue = cats[i].age;
+    if (catArray[i].age){
+        ageValue = catArray[i].age;
     }
 
-
-
-
-    const nameAndAge = `<div>              
-                        <h5>${cats[i].name}</h5>
-                        <p>${cats[i].age}</p>                                  
-                </div>`;
+    const nameAndAge = `<div>\n              
+                        <h5>${catArray[i].name}</h5>\n
+                        <p>${ageValue}</p>\n                                  
+                </div>\n`;
     newHTML += nameAndAge;
-
-
-
-
 }
 

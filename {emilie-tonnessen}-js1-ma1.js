@@ -80,7 +80,7 @@
         }
     }
 
-    oneFunction();
+    oneFunction(cats);
 
 
 // Question 8

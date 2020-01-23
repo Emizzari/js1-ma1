@@ -3,14 +3,11 @@
    Give the object one property called complain. complain's 
    value should be a method (a function) which logs the string 
    "Meow!". */
-
    const cat = {
        complain: function(){
            console.log("Meow!");
        }
    }
-
-   cat.complain();
 
 
 // Question 2
@@ -137,13 +134,22 @@
 
 
 for (let i = 0; i < cats.length; i++) {
+    let ageValue = "Age unknown";
+    if (cats[i].age){
+        ageValue = cats[i].age;
+    }
+
+
+
+
     const nameAndAge = `<div>              
                         <h5>${cats[i].name}</h5>
                         <p>${cats[i].age}</p>                                  
                 </div>`;
     newHTML += nameAndAge;
+
+
+
+
 }
 
-if( cats.age = undefined){
-    console.log("Age unknown");
-}

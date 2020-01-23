@@ -74,9 +74,9 @@
         }
     ]; 
 
-    function catNames(catArray){
-        for (var i = 0; i < cats.length; i++) {
-            console.log(cats[i].name);
+    function catNames(catArray) {
+        for (var i = 0; i < catArray.length; i++) {
+            console.log(catArray[i].name);
         }
     }
 
@@ -93,16 +93,17 @@
    <h5>Harold</h5>
    <h5>Blurt</h5>*/
 
+    function catNames(catArray) {
+        let name = "";
 
-function catNames(catArray) {
-    let name = "";
+        for (let i = 0; i < catArray.length; i++) {
+            name += `<h5>${catArray[i].name}</h5>\n`;
+        }
 
-    for (let i = 0; i < cats.length; i++) {
-        name += `<h5>${cats[i].name}</h5>`;
+        return name;
     }
 
-    return name;
-}
+    catNames(cats);
 
     
     

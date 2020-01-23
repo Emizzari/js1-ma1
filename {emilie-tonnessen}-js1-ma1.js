@@ -73,7 +73,15 @@
             name: "Blurt",
             age: 21
         }
-    ]; */
+    ]; 
+
+    function oneFunction(catArray){
+        for (var i = 0; i < cats.length; i++) {
+            console.log(cats[i].name);
+        }
+    }
+
+    oneFunction();
 
 
 // Question 8

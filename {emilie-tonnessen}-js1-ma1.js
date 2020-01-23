@@ -141,9 +141,9 @@
                 ageValue = catArray[i].age;
             }
 
-            const nameAndAge = `<div>\n              
-                            <h5>${catArray[i].name}</h5>\n
-                            <p>${ageValue}</p>\n                                  
+            const nameAndAge = `<div>             
+                            <h5>${catArray[i].name}</h5>
+                            <p>${ageValue}</p>                                  
                     </div>\n`;
             newHTML += nameAndAge;
         }

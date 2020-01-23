@@ -94,6 +94,14 @@
    <h5>Harold</h5>
    <h5>Blurt</h5>*/
 
+    function oneFunction(catArray) {
+        for (var i = 0; i < cats.length; i++) {
+            console.log("<h5>" + cats[i].name + "</h5>");
+        }
+    }
+
+    oneFunction();
+
 
 // Question 9
 /* Call the function from question 8, pass it the cats variable 

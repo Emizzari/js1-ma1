@@ -59,7 +59,7 @@
 /* Create a function that has one argument called catArray.
    Inside the function, loop through the catArray argument and 
    console log the name property in each object.
-   Call the function and pass in the cats variable below.
+   Call the function and pass in the cats variable below. */
 
     const cats = [
         {

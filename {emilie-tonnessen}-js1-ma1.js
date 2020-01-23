@@ -74,13 +74,13 @@
         }
     ]; 
 
-    function oneFunction(catArray){
+    function catNames(catArray){
         for (var i = 0; i < cats.length; i++) {
             console.log(cats[i].name);
         }
     }
 
-    oneFunction(cats);
+    catNames(cats);
 
 
 // Question 8

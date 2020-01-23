@@ -132,8 +132,6 @@
         <p>21</p>
     </div> */
 
-
-
     function catNames(catArray) {
         newHTML = "";
 

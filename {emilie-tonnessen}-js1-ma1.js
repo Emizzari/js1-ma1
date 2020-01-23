@@ -109,8 +109,7 @@
    from question 7 and set the inner HTML of the resultsContainer 
    variable from question 6 to the return value of the function.*/
 
-   
-    const results = document.querySelector("div");
+    const results = document.querySelector(".results");
     results.innerHTML = catNames(cats);
 
 
@@ -132,6 +131,7 @@
         <h5>Blurt</h5>
         <p>21</p>
     </div> */
+
 
 
 for (let i = 0; i < cats.length; i++) {

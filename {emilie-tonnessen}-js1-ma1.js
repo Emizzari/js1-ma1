@@ -58,13 +58,13 @@
 
 // QUESTION 8
     function catNames(catArray) {
-        let name = "";
+        let newCatHTML = "";
 
         for (let i = 0; i < catArray.length; i++) {
-            name += `<h5>${catArray[i].name}</h5>\n`;
+            newCatHTML += `<h5>${catArray[i].name}</h5>\n`;
         }
 
-        return name;
+        return newCatHTML;
     }
 
     
@@ -74,7 +74,7 @@
 
 // QUESTION 10
     function catNames(catArray) {
-        newHTML = "";
+        let newCatHTML = "";
 
         for (let i = 0; i < catArray.length; i++) {
             let ageValue = "Age unknown";
@@ -86,10 +86,10 @@
                             <h5>${catArray[i].name}</h5>
                             <p>${ageValue}</p>                                  
                     </div>\n`;
-            newHTML += nameAndAge;
+            newCatHTML += nameAndAge;
         }
 
-        return newHTML;
+        return newCatHTML;
     }
 
  

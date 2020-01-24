@@ -69,8 +69,7 @@
 
     
 // QUESTION 9
-    const results = document.querySelector(".results");
-    results.innerHTML = catNames(cats);
+   resultsContainer.innerHTML = catNames(cats);
 
 
 // QUESTION 10

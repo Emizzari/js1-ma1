@@ -48,7 +48,7 @@
     ]; 
 
     function catNames(catArray) {
-        for (var i = 0; i < catArray.length; i++) {
+        for (let i = 0; i < catArray.length; i++) {
             console.log(catArray[i].name);
         }
     }

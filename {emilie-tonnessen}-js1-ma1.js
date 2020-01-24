@@ -26,10 +26,10 @@
 
 
 // QUESTION 6
-   const results = document.querySelector(".results");
-   results.innerHTML = `<p>
-                            New paragraph
-                        </p>`;
+   const resultsContainer = document.querySelector(".results");
+   resultsContainer.innerHTML = `<p>
+                                New paragraph
+                                 </p>`;
 
 
 // QUESTION 7

@@ -3,7 +3,7 @@
        complain: function(){
            console.log("Meow!");
        }
-   }
+   };
 
 
 // QUESTION 2

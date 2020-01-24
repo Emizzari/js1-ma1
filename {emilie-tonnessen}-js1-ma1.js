@@ -1,38 +1,38 @@
-// QUESTION 1
-   const cat = {
-       complain: function(){
-           console.log("Meow!");
-       }
-   };
+//  QUESTION 1
+    const cat = {
+        complain: function(){
+            console.log("Meow!");
+        }
+    };
 
 
-// QUESTION 2
-   document.querySelector("h3");
+//  QUESTION 2
+    document.querySelector("h3");
 
-   const heading = document.querySelector("h3");
-   console.dir(heading);
-
-
-// QUESTION 3
-   heading.style.fontSize = "2em";
+    const heading = document.querySelector("h3");
+    console.dir(heading);
 
 
-// QUESTION 4
-   heading.classList.add("subheading");
+//  QUESTION 3
+    heading.style.fontSize = "2em";
 
 
-// QUESTION 5
-   const paragraphs = document.querySelectorAll("p");
+//  QUESTION 4
+    heading.classList.add("subheading");
 
 
-// QUESTION 6
-   const resultsContainer = document.querySelector(".results");
-   resultsContainer.innerHTML = `<p>
+//  QUESTION 5
+    const paragraphs = document.querySelectorAll("p");
+
+
+//  QUESTION 6
+    const resultsContainer = document.querySelector(".results");
+    resultsContainer.innerHTML = `<p>
                                 New paragraph
                                  </p>`;
 
 
-// QUESTION 7
+//  QUESTION 7
     const cats = [
         {
             name: "Blob",
@@ -56,7 +56,7 @@
     catNames(cats);
 
 
-// QUESTION 8
+//  QUESTION 8
     function catNames(catArray) {
         let newCatHTML = "";
 
@@ -68,11 +68,11 @@
     }
 
     
-// QUESTION 9
-   resultsContainer.innerHTML = catNames(cats);
+//  QUESTION 9
+    resultsContainer.innerHTML = catNames(cats);
 
 
-// QUESTION 10
+//  QUESTION 10
     function catNames(catArray) {
         let newCatHTML = "";
 
